@@ -1,0 +1,203 @@
+[
+  {
+    "model": "reservas.lugar",
+    "pk": 1,
+    "fields": {
+      "nombre": "Isla San Cristobal",
+      "descripcion": "La Isla San Cristóbal es la capital administrativa de Galápagos y una de las islas más fascinantes del archipiélago. Aquí encontrarás la espectacular Playa Punta Carola, ideal para surfistas, y el Centro de Interpretación que narra la historia natural de las islas. No te pierdas el León Dormido, una formación rocosa donde podrás bucear entre tiburones y tortugas marinas. La isla también alberga la Laguna El Junco, el único lago de agua dulce en Galápagos, hogar de fragatas y otras aves endémicas.",
+      "imagen": "https://img.goraymi.com/2022/05/31/7778ad2263e9ef8ffe6b4ce2658565f7_xl.jpg",
+      "ciudad": 1
+    }
+  },
+  
+  {
+    "model": "reservas.lugar",
+    "pk": 2,
+    "fields": {
+      "nombre": "Isla Isabela",
+      "descripcion": "La Isla Isabela, la más grande del archipiélago, es un paraíso de paisajes volcánicos y vida silvestre. Aquí podrás caminar hasta el cráter del volcán Sierra Negra, el segundo más grande del mundo, con un diámetro de 10 km. Las playas de arena blanca como Playa Puerto Villamil son ideales para relajarse, mientras que los humedales albergan flamencos y otras aves. No dejes de hacer snorkel en Los Túneles, una formación de lava que sirve de refugio para tortugas marinas, pingüinos y caballitos de mar.",
+      "imagen": "https://www.corazondenayarit.com/wp-content/uploads/2019/09/parque-nacional-isla-isabel-riviera-nayarit3-600x370.jpg",
+      "ciudad": 1
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 3,
+    "fields": {
+      "nombre": "La Estación Científica Charles Darwin",
+      "descripcion": "La Estación Científica Charles Darwin, ubicada en la isla Santa Cruz, Puerto Ayora, es un centro de investigación y conservación dedicado al estudio y protección de la flora y fauna de las Islas Galápagos. Fundada en 1964, es administrada por la Fundación Charles Darwin y es un lugar de interés tanto científico como turístico. La estación ofrece información sobre la biodiversidad de las islas, incluyendo las tortugas gigantes y otros animales endémicos. ",
+      "imagen": "https://www.darwinfoundation.org/media/images/Sala_de_Exhibiciones-baja_1.original.jpg",
+      "ciudad": 1
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 4,
+    "fields": {
+      "nombre": "Isla Floreana",
+      "descripcion": "Floreana es una isla llena de misterios y leyendas, conocida por sus historias de colonos y el enigma de la Baronesa desaparecida. Visita la Bahía del Correo, donde desde el siglo XVIII los balleneros dejaban cartas en un barril que aún se mantiene como tradición. La Punta Cormorán ofrece una playa de arena verde (por cristales de olivino) y una laguna donde anidan flamencos. Las aguas cristalinas de la Corona del Diablo son perfectas para bucear entre coloridos peces y rayas.",
+      "imagen": "https://mytrip2ecuador.com/wp-content/uploads/2022/07/IMG_20220527_122002-scaled.jpg",
+      "ciudad": 1
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 5,
+    "fields": {
+      "nombre": "Parque Eloy Alfaro",
+      "descripcion": "El Parque Central Eloy Alfaro es el espacio público más importante de Portoviejo, rodeado de edificios históricos como la Catedral y el Palacio Municipal. Recientemente remodelado, cuenta con amplias áreas verdes, fuentes ornamentales y un monumento al Viejo Luchador, Eloy Alfaro. Es el lugar perfecto para sentir el pulso de la ciudad, especialmente los fines de semana cuando se realizan eventos culturales y ferias artesanales. Los árboles centenarios proporcionan sombra a bancas ideales para observar la vida cotidiana de los porteños.",
+      "imagen": "https://scontent.fpvo2-1.fna.fbcdn.net/v/t39.30808-6/488269839_9579878538758921_6806756821943703566_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CEhIjjMcRGgQ7kNvwGw0GD2&_nc_oc=AdkXvhWmL2iwF9MtG83zq3dk2yjytvlmme9B-bwYgk6RRZRivRym-64MVTLXkz9-qPGC2Mo23RkE7DO74W4scsd5&_nc_zt=23&_nc_ht=scontent.fpvo2-1.fna&_nc_gid=ZiarSiUIroE9X5CEJ7BIGQ&oh=00_AfKbw4OUSKThVkgeVyGe3m6pxjL_n6C-GwBykTXtsZX5dA&oe=684557B4",
+      "ciudad": 2
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 6,
+    "fields": {
+      "nombre": "Catedral de Portoviejo",
+      "descripcion": "La Catedral Metropolitana de Portoviejo, dedicada a Jesús del Buen Pastor, es un ícono religioso y arquitectónico de la ciudad. Su imponente estructura moderna de hormigón armado contrasta con los detalles tradicionales de su interior. El vitral principal, que representa a Cristo como Buen Pastor, es una obra maestra del arte sacro contemporáneo. El campanario ofrece una vista panorámica de la ciudad y sus alrededores. En su cripta descansan los restos de importantes figuras eclesiásticas y civiles de la provincia de Manabí.",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/92/PortoviejoCathedral.jpg",
+      "ciudad": 2
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 7,
+    "fields": {
+      "nombre": "Museo Portoviejo",
+      "descripcion": "El Museo Portoviejo, ubicado en un edificio histórico restaurado, ofrece un fascinante recorrido por la arqueología, historia y cultura de Manabí. Sus salas exhiben piezas de las culturas precolombinas Valdivia, Manteña y Jama-Coaque, incluyendo cerámicas, herramientas y la famosa silla manteña en forma de U. La sección etnográfica muestra tradiciones vivas como el sombrero de paja toquilla y la gastronomía manabita. El museo también cuenta con exposiciones temporales de arte contemporáneo y un jardín botánico con especies nativas.",
+      "imagen": "https://ciudadalfaro.gob.ec/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-05-at-3.00.02-PM-1024x635.jpeg",
+      "ciudad": 2
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 8,
+    "fields": {
+      "nombre": "Parque La Ratonda",
+      "descripcion": "El Malecón de Portoviejo, a orillas del río Portoviejo, es un espacio de esparcimiento renovado que combina áreas verdes, ciclovías y miradores. Sus amplios senderos son ideales para caminatas al atardecer, cuando la brisa fresca llega desde el río. El complejo incluye juegos infantiles, canchas deportivas y un anfiteatro para eventos culturales. Los fines de semana se convierte en punto de encuentro familiar, con puestos de comida tradicional como bolones de verde y corviches. Desde aquí se aprecia el paisaje de colinas que rodean la ciudad.",
+      "imagen": "https://www.turismo.gob.ec/wp-content/uploads/2017/09/Parque_La_Rotonda.jpg",
+      "ciudad": 2
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 9,
+    "fields": {
+      "nombre": "Catedral de la Inmaculada",
+      "descripcion": "La Catedral de la Inmaculada Concepción, con sus imponentes cúpulas azules, es el símbolo arquitectónico más reconocible de Cuenca. Construida con mármol traído de Italia y alabastro local, su interior resplandece con vitrales que filtran la luz en tonalidades celestiales. El altar mayor, tallado en madera y bañado en oro, es una obra maestra del arte religioso. Subir a sus torres ofrece una vista panorámica incomparable del centro histórico, declarado Patrimonio Cultural de la Humanidad por la UNESCO. Los domingos, las misas con coro polifónico son una experiencia espiritual única.",
+      "imagen": "https://besttripecuador.com/wp-content/uploads/2022/03/1.Cuenca-portada-vf-768x512.jpg",
+      "ciudad": 3
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 10,
+    "fields": {
+      "nombre": "Parque Calderón",
+      "descripcion": "El Parque Calderón, corazón del centro histórico de Cuenca, es un oasis de tranquilidad rodeado de edificios coloniales. Sus jardines simétricos, podados con precisión, albergan árboles centenarios y coloridas floraciones estacionales. Las bancas de hierro forjado son testigos silenciosos de generaciones de cuencanos que vienen a leer, conversar o simplemente contemplar la Catedral Nueva. Los cafés y heladerías de sus alrededores son perfectos para degustar un delicioso café de los Andes o un tradicional helado de paila mientras se observa el ir y venir de la ciudad.",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtsEDqxuYRE6AfGQa9rwR0KyKYvi4M51BhVJd9Cc4H6-eb-jxLwVBwpQ0hSnZgxeooakyxkc9rSbyjRumYRN8a4tTLKOK-jwI4v-dKbO5v0SAnjYUTvLu52uH3pM71c8ZC1i5D2pR4PcMWaGg7SxYlkzpKE48ao2mpVM1gfbj-aaDdz23hWbWU4qUDpBQ/s1600/Turismo-en-Ecuador-Cuenca-Parque-Abdon-Calderon.webp",
+      "ciudad": 3
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 11,
+    "fields": {
+      "nombre": "Museo Pumapungo",
+      "descripcion": "El Museo Pumapungo es un fascinante complejo cultural que combina arqueología, etnografía y naturaleza. En su interior, las salas exhiben una impresionante colección de artefactos de las culturas cañari e inca, incluyendo textiles, cerámicas y objetos rituales. Al aire libre, las ruinas de Pumapungo -antiguo centro administrativo inca- permiten caminar entre reconstrucciones de almacenes y templos. El jardín etnobotánico muestra plantas medicinales andinas, mientras que el aviario alberga especies nativas como tucanes y guacamayos. La visita culmina con una vista panorámica del valle desde la terraza del museo.",
+      "imagen": "https://www.culturaypatrimonio.gob.ec/wp-content/uploads/2013/03/Sala-Etnogr%C3%A1fica-Nacional-2.jpg",
+      "ciudad": 3
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 12,
+    "fields": {
+      "nombre": "Río Tomebamba",
+      "descripcion": "El río Tomebamba, que serpentea por el sur de Cuenca, es el alma líquida de la ciudad. Sus riberas han sido transformadas en encantadores paseos peatonales donde antiguas casonas coloniales parecen flotar sobre el agua. El Barranco, como se le conoce localmente, es ideal para caminatas matutinas entre jardines y pequeñas cascadas. Los lavaderos públicos, aún en uso, son testimonio de tradiciones que perduran. Por la noche, la iluminación de los puentes y edificios coloniales crea un escenario mágico que refleja la elegancia de esta ciudad Patrimonio Cultural de la Humanidad.",
+      "imagen": "https://buentrip.app/panel/files/attractions/8f183f_1c94b95f7aad4d488b60c25ae9407115_mv2.webp",
+      "ciudad": 3
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 13,
+    "fields": {
+      "nombre": "Centro Histórico de Quito",
+      "descripcion": "El Centro Histórico de Quito, el mejor conservado de América Latina y primer Patrimonio Cultural de la Humanidad declarado por la UNESCO, es un museo viviente de arquitectura colonial. Caminar por sus empedradas calles es viajar en el tiempo entre iglesias barrocas recubiertas de oro, plazas centenarias y conventos que guardan secretos artísticos. La Plaza Grande, corazón del poder político y religioso, está rodeada por el Palacio de Carondelet y la Catedral Metropolitana. Cada rincón cuenta historias de mestizaje cultural, desde los talleres de arte en La Ronda hasta los mercados tradicionales donde se mezclan olores a canela, flores y pan recién horneado.",
+      "imagen": "https://ecuadorexplorer.com/es/wp-content/uploads/2023/08/blog1_vista_hermosa_centro_quito_historico.jpg",
+      "ciudad": 4
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 14,
+    "fields": {
+      "nombre": "Mitad del Mundo",
+      "descripcion": "El Monumento a la Mitad del Mundo marca el punto donde la línea ecuatorial divide los hemisferios norte y sur. Este complejo turístico-cultural permite vivir curiosos experimentos científicos: ver cómo el agua gira en distinto sentido en cada hemisferio, intentar caminar en línea recta sobre el ecuador o equilibrar un huevo en un clavo. El museo etnográfico interior muestra la diversidad cultural del Ecuador. A pocos metros, el Museo Intiñan revela con demostraciones interactivas cómo las culturas ancestrales entendieron este fenómeno geográfico. No olvides tomar la clásica foto con un pie en cada hemisferio!",
+      "imagen": "https://www.quito-turismo.gob.ec/wp-content/uploads/2022/03/magiayencanto.jpg",
+      "ciudad": 4
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 15,
+    "fields": {
+      "nombre": "Teleférico",
+      "descripcion": "El Teleférico de Quito, uno de los más altos del mundo, asciende desde los 2.950 hasta los 4.050 metros sobre el nivel del mar en solo 18 minutos. Desde sus cabinas se aprecia el impresionante valle de Quito flanqueado por volcanes como el Pichincha, Cotopaxi y Antisana. En la cima, el mirador ofrece vistas panorámicas que abarcan toda la ciudad en días despejados. Los más aventureros pueden continuar caminando hasta el Rucu Pichincha, un volcán activo cuya cumbre está a 4.696 metros. El centro de interpretación explica la geología andina y la importancia de los páramos como fuentes de agua.",
+      "imagen": "https://teleferico.com.ec/wp-content/uploads/2019/04/imagen_inicio3.jpg",
+      "ciudad": 4
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 16,
+    "fields": {
+      "nombre": "Parque La Carolina",
+      "descripcion": "El Parque La Carolina es el pulmón verde de Quito, un extenso espacio de 67 hectáreas donde quiteños y visitantes practican deportes, pasean en bote o simplemente disfrutan del sol andino. Sus senderos arbolados conectan áreas de juegos infantiles, canchas deportivas y el Jardín Botánico, que exhibe la increíble diversidad de orquídeas y plantas nativas del Ecuador. Los fines de semana se transforma en un bullicioso centro de actividad con clases gratuitas de yoga, ferias artesanales y food trucks que ofrecen desde ceviche hasta helado de paila. El Museo Interactivo de Ciencia, en su extremo norte, es perfecto para visitas familiares.",
+      "imagen": "https://media-cdn.tripadvisor.com/media/photo-s/06/48/9a/1c/parque-la-carolina.jpg",
+      "ciudad": 4
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 17,
+    "fields": {
+      "nombre": "Malecón 2000",
+      "descripcion": "El Malecón 2000, un ambicioso proyecto de regeneración urbana a orillas del río Guayas, es el orgullo de Guayaquil. Este paseo de 2.5 km combina jardines tropicales, monumentos históricos, centros comerciales y museos interactivos como el MAAC (Museo Antropológico y de Arte Contemporáneo). El paseo en la Perla, una gigantesca noria de 57 metros, ofrece vistas espectaculares del río y la ciudad. Por las noches, las fuentes danzantes sincronizadas con música y luces atraen a familias enteras. Es el lugar perfecto para probar encebollado, el plato bandera guayaquileño, mientras se observa el ir y venir de barcos por el principal puerto del Ecuador.",
+      "imagen": "https://live.staticflickr.com/65535/49256235242_8f565f1b80_c.jpg",
+      "ciudad": 5
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 18,
+    "fields": {
+      "nombre": "Parque Histórico Guayaquil",
+      "descripcion": "El Parque Histórico Guayaquil es un fascinante viaje al pasado de la región costa. Dividido en tres zonas -vida silvestre, tradiciones urbanas y arquitectura histórica- recrea ambientes naturales y culturales con extraordinario detalle. Sus manglares albergan cocodrilos, monos aulladores y aves nativas en semi-libertad. Las casas patrimoniales trasladadas piedra por piedra desde el centro muestran cómo vivía la burguesía guayaquileña a inicios del siglo XX. Los fines de semana, actores representan oficios tradicionales como el trenzado de sombreros de paja toquilla o la elaboración de cacao artesanal. El mirador ofrece una vista panorámica del estero Salado y sus ecosistemas de manglar.",
+      "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/UQOHP32NW5GXTJCKIFNNSJIXII.jpg",
+      "ciudad": 5
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 19,
+    "fields": {
+      "nombre": "Cerro Santa Ana",
+      "descripcion": "El Cerro Santa Ana, con sus 444 escalones pintados de colores, es el mirador más emblemático de Guayaquil. La ascensión pasa por el pintoresco barrio Las Peñas, cuna de artistas y músicos, donde antiguas casas de madera han sido convertidas en galerías y cafés bohemios. En la cima, el faro y la capilla de Santa Ana ofrecen un refugio tranquilo con vistas panorámicas del río Guayas, el malecón y la ciudad moderna. Al atardecer, cuando las luces comienzan a encenderse, el ambiente se llena de romance. Los jueves a domingo, artistas callejeros animan el ascenso con música tradicional.",
+      "imagen": "https://proximodestino.app/wp-content/uploads/2023/08/Cerro-Santa-Ana.jpg",
+      "ciudad": 5
+    }
+  },
+  {
+    "model": "reservas.lugar",
+    "pk": 20,
+    "fields": {
+      "nombre": "Iglesia San Francisco",
+      "descripcion": "La Iglesia de San Francisco, construida en estilo neogótico a inicios del siglo XX, es uno de los templos más importantes del centro histórico de Guayaquil. Su imponente fachada de piedra gris y vitrales europeos contrasta con el cálido interior donde se venera al Señor del Consuelo, imagen que atrae a miles de devotos. El convento adjunto alberga un museo de arte religioso con piezas coloniales y una biblioteca patrimonial. Los jueves, el coro polifónico ofrece conciertos gratuitos con repertorio que va desde música sacra hasta pasillos ecuatorianos. Su plaza frontal, recientemente remodelada, es punto de encuentro para eventos culturales y ferias artesanales.",
+      "imagen": "https://i0.wp.com/trailforthjournal.com/es/wp-content/uploads/sites/4/2023/10/DJI_0025-2-scaled.jpg?fit=2560%2C1438&ssl=1",
+      "ciudad": 5
+    }
+  }
+]

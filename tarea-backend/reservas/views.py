@@ -1,6 +1,9 @@
 from rest_framework import generics
-from .models import Cliente, Lugar, Habitacion, Reserva
-from .serializers import ClienteSerializer, LugarSerializer, HabitacionSerializer, ReservaSerializer
+from .models import Cliente, Lugar, Habitacion, Reserva, Ciudad
+from .serializers import ClienteSerializer, LugarSerializer, HabitacionSerializer, ReservaSerializer, CiudadSerializer
+from rest_framework.response import Response
+from rest_framework.views import APIView
+from rest_framework import status
 
 #Cliente
 class ClienteListCreateView(generics.ListCreateAPIView):
@@ -51,4 +54,29 @@ class ReservasPorClienteView(generics.ListAPIView):
 class ReservaDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Reserva.objects.all()
     serializer_class = ReservaSerializer
+
+#Ciudad
+class CiudadDetailView(APIView):
+    def get(self, request, pk):
+        try:
+            ciudad = Ciudad.objects.get(pk=pk)
+        except Ciudad.DoesNotExist:
+            return Response({'error': 'Ciudad no encontrada'}, status=status.HTTP_404_NOT_FOUND)
+        serializer = CiudadSerializer(ciudad)
+        return Response(serializer.data)
+
+class CiudadListCreateView(generics.ListCreateAPIView):
+    queryset = Ciudad.objects.all()
+    serializer_class = CiudadSerializer
+
+class CiudadRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Ciudad.objects.all()
+    serializer_class = CiudadSerializer
+
+class LugaresPorCiudadView(generics.ListAPIView):
+    serializer_class = LugarSerializer
+
+    def get_queryset(self):
+        ciudad_id = self.kwargs['ciudad_id']
+        return Lugar.objects.filter(ciudad_id=ciudad_id)
 

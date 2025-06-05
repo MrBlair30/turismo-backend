@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Cliente, Lugar, Habitacion, Reserva
+from .models import Cliente, Lugar, Habitacion, Reserva, Ciudad
 
 class ClienteSerializer(serializers.ModelSerializer):
     class Meta:
@@ -25,8 +25,15 @@ class ReservaSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         reserva = Reserva.objects.create(**validated_data)
+        # Actualiza el estado de la habitación
         habitacion = reserva.habitacion
         habitacion.reservada = True
         habitacion.save()
         return reserva
+
+class CiudadSerializer(serializers.ModelSerializer):
+    lugares = LugarSerializer(many=True, read_only=True)
+    class Meta:
+        model = Ciudad
+        fields = ['id', 'nombre', 'descripcion', 'imagen', 'lugares']
 

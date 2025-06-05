@@ -1,0 +1,1302 @@
+[
+  {
+    "model": "reservas.habitacion",
+    "pk": 1,
+    "fields": {
+      "nombre_hotel": "Paraíso Galapagueño",
+      "lugar": 1,
+      "num_hab": "A12",
+      "precio": 120,
+      "capacidad": 2,
+      "descripcion": "Encantadora habitación con vista panorámica al océano Pacífico, decorada con motivos marinos y equipada con terraza privada. Perfecta para disfrutar los atardeceres con sonido de olas. Incluye cama king size, minibar ecológico y baño con productos biodegradables.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 2,
+    "fields": {
+      "nombre_hotel": "Paraíso Galapagueño",
+      "lugar": 1,
+      "num_hab": "B7",
+      "precio": 95,
+      "capacidad": 2,
+      "descripcion": "Acogedora habitación estándar con decoración inspirada en la biodiversidad de las islas. Cuenta con cama queen size, escritorio para trabajo remoto y ventanal con vista al jardín endémico. Incluye servicio diario de frutas tropicales.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 3,
+    "fields": {
+      "nombre_hotel": "Paraíso Galapagueño",
+      "lugar": 1,
+      "num_hab": "C21",
+      "precio": 150,
+      "capacidad": 3,
+      "descripcion": "Amplia habitación familiar con dos ambientes separados, ideal para padres con niños. Incluye cama king size y litera artesanal, sala de juegos con materiales educativos sobre Galápagos y baño con ducha tropical. Acceso directo a la piscina.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 4,
+    "fields": {
+      "nombre_hotel": "Paraíso Galapagueño",
+      "lugar": 1,
+      "num_hab": "D3",
+      "precio": 180,
+      "capacidad": 4,
+      "descripcion": "Exclusiva suite con terraza privada y jacuzzi al aire libre con vista al mar. Diseño bioclimático con techos altos y ventilación natural. Incluye sala de estar, minicocina equipada y servicio prioritario de guía naturalista.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 5,
+    "fields": {
+      "nombre_hotel": "Paraíso Galapagueño",
+      "lugar": 1,
+      "num_hab": "E15",
+      "precio": 80,
+      "capacidad": 1,
+      "descripcion": "Cómoda habitación individual para viajeros solitarios, con cama individual ergonómica y espacio de trabajo con conexión USB. Ventanal con vista al jardín de cactus gigantes. Incluye desayuno buffet con productos locales.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 6,
+    "fields": {
+      "nombre_hotel": "Santa Cruz Lodge",
+      "lugar": 2,
+      "num_hab": "M42",
+      "precio": 110,
+      "capacidad": 2,
+      "descripcion": "Habitación premium con balcón suspendido sobre los manglares, ideal para observación de aves endémicas. Decoración con madera local y tejidos artesanales. Incluye hamaca privada y kit de snorkel para huéspedes.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 7,
+    "fields": {
+      "nombre_hotel": "Santa Cruz Lodge",
+      "lugar": 2,
+      "num_hab": "N18",
+      "precio": 100,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar con cama queen size y baño de piedra volcánica. Sonido ambiental de olas y ventilación cruzada natural. Incluye mapa personalizado de senderos cercanos y descuentos en tours locales.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 8,
+    "fields": {
+      "nombre_hotel": "Santa Cruz Lodge",
+      "lugar": 2,
+      "num_hab": "P29",
+      "precio": 140,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar con tres camas individuales estilo litera, decorada con murales de tortugas gigantes. Cuenta con rincón de lectura con libros sobre Darwin y espacio para equipamiento de buceo. Terraza compartida con hamacas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 9,
+    "fields": {
+      "nombre_hotel": "Santa Cruz Lodge",
+      "lugar": 2,
+      "num_hab": "R5",
+      "precio": 170,
+      "capacidad": 4,
+      "descripcion": "Suite familiar de dos niveles con dormitorio principal y loft infantil. Incluye cocineta básica, área de juegos con materiales reciclados y baño con ducha de lluvia. Acceso exclusivo al mirador de tortugas marinas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 10,
+    "fields": {
+      "nombre_hotel": "Santa Cruz Lodge",
+      "lugar": 2,
+      "num_hab": "S33",
+      "precio": 85,
+      "capacidad": 1,
+      "descripcion": "Habitación individual económica con cama individual y baño compartido (4 habitaciones por baño). Ideal para mochileros. Incluye locker seguro y acceso a áreas comunes con cocina compartida y sala de intercambio de libros.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 11,
+    "fields": {
+      "nombre_hotel": "Isabela Oceanfront",
+      "lugar": 3,
+      "num_hab": "V8",
+      "precio": 130,
+      "capacidad": 2,
+      "descripcion": "Habitación frente al mar con ventanales desde el piso hasta el techo para avistamiento de vida marina. Cama king size con dosel de red y baño con vista al océano. Incluye despertador con sonidos de ballenas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 12,
+    "fields": {
+      "nombre_hotel": "Isabela Oceanfront",
+      "lugar": 3,
+      "num_hab": "W14",
+      "precio": 110,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar con decoración minimalista y eco-amigable. Cama queen size con colchón ortopédico y muebles de bambú. Incluye guía digital interactiva de los volcanes cercanos y sus rutas de trekking.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 13,
+    "fields": {
+      "nombre_hotel": "Isabela Oceanfront",
+      "lugar": 3,
+      "num_hab": "X22",
+      "precio": 160,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar con cama king size y cama auxiliar convertible. Temática de pingüinos de Galápagos, incluye proyector para documentales nocturnos sobre vida silvestre. Terraza con tumbonas para observación de estrellas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 14,
+    "fields": {
+      "nombre_hotel": "Isabela Oceanfront",
+      "lugar": 3,
+      "num_hab": "Y9",
+      "precio": 190,
+      "capacidad": 4,
+      "descripcion": "Suite presidencial con diseño inspirado en los barcos de investigación científica. Dos dormitorios, sala de estar con acuario táctil y cocina completa. Incluye tour privado al volcán Sierra Negra y masaje relajante para todos los huéspedes.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 15,
+    "fields": {
+      "nombre_hotel": "Isabela Oceanfront",
+      "lugar": 3,
+      "num_hab": "Z17",
+      "precio": 90,
+      "capacidad": 1,
+      "descripcion": "Cabaña individual independiente con terraza privada y hamaca. Diseño compacto pero funcional con cama plegable inteligente que se convierte en escritorio. Ideal para escritores o viajeros que buscan privacidad con sonido constante de olas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 16,
+    "fields": {
+      "nombre_hotel": "Floreana Mystic",
+      "lugar": 4,
+      "num_hab": "F5",
+      "precio": 140,
+      "capacidad": 2,
+      "descripcion": "Habitación temática de los misterios de Floreana, con decoración vintage que recrea la época de los primeros colonos. Terraza con vista a la Bahía del Correo y jacuzzi privado. Incluye libro de firmas centenario para dejar mensajes.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 17,
+    "fields": {
+      "nombre_hotel": "Floreana Mystic",
+      "lugar": 4,
+      "num_hab": "G12",
+      "precio": 120,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar con paredes de piedra volcánica y techos de madera local. Cama queen size con dosel y mosquitero romántico. Incluye visita guiada al barril del correo histórico y cena temática de leyendas locales.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 18,
+    "fields": {
+      "nombre_hotel": "Floreana Mystic",
+      "lugar": 4,
+      "num_hab": "H24",
+      "precio": 170,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar con tres camas individuales estilo cabaña. Rincón de juegos de mesa sobre historia de Galápagos y biblioteca de libros antiguos. Baño compartido con ducha al aire libre (privada) rodeada de jardín endémico.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 19,
+    "fields": {
+      "nombre_hotel": "Floreana Mystic",
+      "lugar": 4,
+      "num_hab": "J8",
+      "precio": 200,
+      "capacidad": 4,
+      "descripcion": "Suite 'Baronesa' de lujo, inspirada en la legendaria residente de la isla. Dos dormitorios con baños de mármol, sala de música con vitrola antigua y terraza con mirador exclusivo. Incluye cena privada con chef y relato dramatizado de los misterios de la isla.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 20,
+    "fields": {
+      "nombre_hotel": "Floreana Mystic",
+      "lugar": 4,
+      "num_hab": "K30",
+      "precio": 100,
+      "capacidad": 1,
+      "descripcion": "Pequeña habitación individual estilo 'cabina de barco', con litera cómoda y escritorio plegable. Decoración náutica con mapas antiguos. Ideal para viajeros que llegan tarde y parten temprano en excursiones. Incluye desayuno para llevar.",
+      "reservada": false
+    }
+  },  
+  {
+    "model": "reservas.habitacion",
+    "pk": 21,
+    "fields": {
+      "nombre_hotel": "Portoviejo Colonial",
+      "lugar": 5,
+      "num_hab": "PC28",
+      "precio": 85,
+      "capacidad": 2,
+      "descripcion": "Habitación con balcón interior al patio colonial, decorada con réplicas de arte manabita. Cama king size con dosel de algodón orgánico y baño con azulejos tradicionales. Incluye demostración diaria de tejido de sombrero de paja toquilla en el patio.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 22,
+    "fields": {
+      "nombre_hotel": "Portoviejo Colonial",
+      "lugar": 5,
+      "num_hab": "PV14",
+      "precio": 75,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar con mobiliario de madera de guayacán restaurado, ventanas altas que permiten la ventilación cruzada. Incluye hamaca artesanal en el corredor compartido y kit de productos de tagua (marfil vegetal) como obsequio.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 23,
+    "fields": {
+      "nombre_hotel": "Portoviejo Colonial",
+      "lugar": 5,
+      "num_hab": "PT9",
+      "precio": 110,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Hacienda', con cama matrimonial y litera estilo rancho. Paredes decoradas con fotografías históricas de Portoviejo y rincón de juegos tradicionales (trompo, canicas). Incluye taller familiar de elaboración de bolones los fines de semana.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 24,
+    "fields": {
+      "nombre_hotel": "Portoviejo Colonial",
+      "lugar": 5,
+      "num_hab": "PS3",
+      "precio": 130,
+      "capacidad": 4,
+      "descripcion": "Suite 'Cacique' con dos dormitorios conectados por sala común estilo cabaña manabita. Techos de caña guadúa, hamacas familiares y cocineta para preparar platos típicos. Incluye tour privado al Museo Portoviejo y degustación de café arábico local.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 25,
+    "fields": {
+      "nombre_hotel": "Portoviejo Colonial",
+      "lugar": 5,
+      "num_hab": "PI22",
+      "precio": 60,
+      "capacidad": 1,
+      "descripcion": "Pequeña habitación individual en torreón histórico, con vista al Parque Central. Cama individual con colchón de lana de oveja y baño compartido estilo antiguo (con modernas comodidades). Ideal para viajeros que buscan autenticidad.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 26,
+    "fields": {
+      "nombre_hotel": "Catedral Suites Cuenca",
+      "lugar": 6,
+      "num_hab": "CS7",
+      "precio": 145,
+      "capacidad": 2,
+      "descripcion": "Habitación con vista directa a las cúpulas azules de la Catedral, ventanales termoacústicos para disfrutar del paisaje sin ruido. Cama canopy con dosel de encaje cuencano y baño de mármol con sistema de calefacción por pisos.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 27,
+    "fields": {
+      "nombre_hotel": "Catedral Suites Cuenca",
+      "lugar": 6,
+      "num_hab": "CV12",
+      "precio": 125,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Platería' con decoración inspirada en los joyeros tradicionales de Cuenca. Paredes con paneles de madera tallada, cama queen size con cabecera de filigrana metálica. Incluye visita guiada a taller de platería con descuento exclusivo.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 28,
+    "fields": {
+      "nombre_hotel": "Catedral Suites Cuenca",
+      "lugar": 6,
+      "num_hab": "CF19",
+      "precio": 165,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Andina', con cama king size y cama auxiliar estilo colonial. Rincón de lectura con colección de libros sobre el patrimonio de Cuenca y reproductor de música andina. Baño con sauna seco opcional por las noches.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 29,
+    "fields": {
+      "nombre_hotel": "Catedral Suites Cuenca",
+      "lugar": 6,
+      "num_hab": "CP5",
+      "precio": 195,
+      "capacidad": 4,
+      "descripcion": "Suite Presidencial 'Giraldo' en honor al poeta cuencano, con biblioteca privada, piano de cola y comedor para 6 personas. Terraza privada con jacuzzi y vista 360° a la ciudad. Incluye chófer por 4 horas diarias y cena con chef privado.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 30,
+    "fields": {
+      "nombre_hotel": "Catedral Suites Cuenca",
+      "lugar": 6,
+      "num_hab": "CI25",
+      "precio": 80,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Escritor', con escritorio antiguo frente a ventanal panorámico, iluminación especial para lectura y colección de literatura local. Incluye membresía temporal a la Biblioteca Municipal y cuaderno artesanal de regalo.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 31,
+    "fields": {
+      "nombre_hotel": "Río Tomebamba Retreat",
+      "lugar": 7,
+      "num_hab": "RT11",
+      "precio": 135,
+      "capacidad": 2,
+      "descripcion": "Habitación suspendida sobre el río Tomebamba, con piso de vidrio templado en área de ducha para ver el agua fluir bajo tus pies. Decoración con elementos de bambú y lana de oveja. Incluye desayuno servido en balcón sobre el río.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 32,
+    "fields": {
+      "nombre_hotel": "Río Tomebamba Retreat",
+      "lugar": 7,
+      "num_hab": "RV8",
+      "precio": 115,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar con sonido ambiental del río, cama queen size con sistema de masaje integrado y baño con productos de spa locales. Incluye sesión de yoga matinal en plataforma sobre el agua (opcional).",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 33,
+    "fields": {
+      "nombre_hotel": "Río Tomebamba Retreat",
+      "lugar": 7,
+      "num_hab": "RF16",
+      "precio": 155,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Molino', construida dentro de una réplica funcional de molino de agua tradicional. Dos niveles conectados por escalera de caracol, con cama matrimonial abajo y área infantil arriba con literas. Incluye demostración de molienda tradicional.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 34,
+    "fields": {
+      "nombre_hotel": "Río Tomebamba Retreat",
+      "lugar": 7,
+      "num_hab": "RP2",
+      "precio": 185,
+      "capacidad": 4,
+      "descripcion": "Suite 'Barranco' con tres niveles: sala de estar con chimenea, dormitorio principal con baño de vapor natural y terraza inferior con piscina privada alimentada por agua del río. Decoración con arte contemporáneo cuencano y mobiliario de diseño.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 35,
+    "fields": {
+      "nombre_hotel": "Río Tomebamba Retreat",
+      "lugar": 7,
+      "num_hab": "RI30",
+      "precio": 95,
+      "capacidad": 1,
+      "descripcion": "Mini-suite individual 'Meditación', con plataforma de tatami sobre el río, futón orgánico y altar andino para prácticas espirituales. Incluye sesión diaria de meditación guiada y té de hierbas locales a cualquier hora.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 36,
+    "fields": {
+      "nombre_hotel": "Pumapungo Eco Lodge",
+      "lugar": 8,
+      "num_hab": "PE15",
+      "precio": 120,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Arqueólogo' con réplicas de piezas cañaris e incas en nichos iluminados. Cama king size con cabecera inspirada en Tumi ceremonial y baño con ducha de piedra. Incluye visita privada nocturna al museo Pumapungo.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 37,
+    "fields": {
+      "nombre_hotel": "Pumapungo Eco Lodge",
+      "lugar": 8,
+      "num_hab": "PV7",
+      "precio": 100,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar con paredes de adobe auténtico y techos de paja tradicional. Sistema de climatización natural mediante pozos de ventilación. Incluye taller de cerámica precolombina para huéspedes (2 horas).",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 38,
+    "fields": {
+      "nombre_hotel": "Pumapungo Eco Lodge",
+      "lugar": 8,
+      "num_hab": "PF21",
+      "precio": 140,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Aves', decorada con ilustraciones científicas de especies locales. Incluye binoculares profesionales, guía de aves de Cuenca y despertador con cantos de pájaros. Terraza compartida con comedor al aire libre.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 39,
+    "fields": {
+      "nombre_hotel": "Pumapungo Eco Lodge",
+      "lugar": 8,
+      "num_hab": "PP4",
+      "precio": 170,
+      "capacidad": 4,
+      "descripcion": "Suite 'Cacique' de dos plantas con dormitorio en nivel superior tipo mirador. Baño ceremonial con bañera de cobre y hierbas aromáticas. Sala inferior con mesa para rituales de limpia tradicional y cocineta para preparar alimentos ceremoniales.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 40,
+    "fields": {
+      "nombre_hotel": "Pumapungo Eco Lodge",
+      "lugar": 8,
+      "num_hab": "PI18",
+      "precio": 75,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Guardian', ubicada junto al huerto medicinal del hotel. Cama individual con base de piedra volcánica y aromaterapia personalizada. Incluye recorrido por jardín etnobotánico y muestra de plantas sagradas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 41,
+    "fields": {
+      "nombre_hotel": "Quito Heritage Boutique",
+      "lugar": 9,
+      "num_hab": "QH33",
+      "precio": 160,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Virreinal' en edificio patrimonial del siglo XVIII, con balcón cerrado típico quiteño. Cama con dosel de terciopelo, baño con azulejos originales restaurados y chimenea decorativa. Incluye tour privado por los secretos arquitectónicos del centro histórico.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 42,
+    "fields": {
+      "nombre_hotel": "Quito Heritage Boutique",
+      "lugar": 9,
+      "num_hab": "QV12",
+      "precio": 140,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Artesano' dedicada a los maestros quiteños, con exhibición rotativa de obras de arte popular. Cama queen size con cubrecama bordado a mano y baño con mosaicos contemporáneos. Incluye visita a taller artesanal con descuento.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 43,
+    "fields": {
+      "nombre_hotel": "Quito Heritage Boutique",
+      "lugar": 9,
+      "num_hab": "QF25",
+      "precio": 180,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'República', decorada con mobiliario de los años 20. Incluye dormitorio principal y pequeño estudio con sofá-cama. Colección de juegos tradicionales quiteños y proyector para películas antiguas de Ecuador.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 44,
+    "fields": {
+      "nombre_hotel": "Quito Heritage Boutique",
+      "lugar": 9,
+      "num_hab": "QP6",
+      "precio": 210,
+      "capacidad": 4,
+      "descripcion": "Suite 'Presidencial' en torreón histórico, con biblioteca privada de libros antiguos, comedor formal para 8 personas y terraza con vista a las iglesias del centro. Servicio de mayordomo las 24 horas y acceso exclusivo al archivo fotográfico del hotel.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 45,
+    "fields": {
+      "nombre_hotel": "Quito Heritage Boutique",
+      "lugar": 9,
+      "num_hab": "QI29",
+      "precio": 90,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Cronista' con escritorio antiguo y colección de diarios históricos de Quito. Cama individual estilo conventual con ropa de cama de algodón orgánico. Incluye mapa de los cafés literarios del centro histórico.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 46,
+    "fields": {
+      "nombre_hotel": "Mitad del Mundo Cosmopolitan",
+      "lugar": 10,
+      "num_hab": "ME17",
+      "precio": 150,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Ecuatorial' con línea del ecuador marcada en el piso, permitiendo experimentar ambos hemisferios simultáneamente. Cama giratoria manualmente para alineación magnética y reloj de sol interior. Incluye certificado oficial de visita a la latitud 0°.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 47,
+    "fields": {
+      "nombre_hotel": "Mitad del Mundo Cosmopolitan",
+      "lugar": 10,
+      "num_hab": "MV9",
+      "precio": 130,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar con diseño geodesico, ventanas hexagonales que enfatizan la ubicación única del hotel. Sistema de realidad aumentada para visualizar la línea ecuatorial desde la cama. Incluye experimento demostrativo del efecto Coriolis.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 48,
+    "fields": {
+      "nombre_hotel": "Mitad del Mundo Cosmopolitan",
+      "lugar": 10,
+      "num_hab": "MF23",
+      "precio": 170,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Ciencia', con tres camas individuales dispuestas en los tres ejes cardinales. Estación meteorológica interactiva y telescopio profesional para observación nocturna. Incluye taller familiar de física divertida.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 49,
+    "fields": {
+      "nombre_hotel": "Mitad del Mundo Cosmopolitan",
+      "lugar": 10,
+      "num_hab": "MP1",
+      "precio": 200,
+      "capacidad": 4,
+      "descripcion": "Suite 'Newton' con laboratorio doméstico para experimentos científicos básicos, dormitorio principal con cama flotante (efecto magnético) y sala de estar con proyector 3D. Incluye visita privada al museo Intiñan con demostraciones exclusivas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 50,
+    "fields": {
+      "nombre_hotel": "Mitad del Mundo Cosmopolitan",
+      "lugar": 10,
+      "num_hab": "MI34",
+      "precio": 110,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Explorador', decorada como módulo espacial con información sobre misiones ecuatorianas. Cama individual ergonómica con sistema de proyección estelar en el techo. Incluye desayuno 'astronauta' con alimentos liofilizados gourmet.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 51,
+    "fields": {
+      "nombre_hotel": "Teleférico Mountain Suites",
+      "lugar": 11,
+      "num_hab": "TM14",
+      "precio": 180,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Cóndor' con vista panorámica a los volcanes desde cama giratoria manual. Paredes de vidrio templado con cortinas blackout para alta montaña. Sistema de oxigenación controlada y chimenea de bioetanol. Incluye paseo en teleférico ilimitado durante la estadía.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 52,
+    "fields": {
+      "nombre_hotel": "Teleférico Mountain Suites",
+      "lugar": 11,
+      "num_hab": "TV6",
+      "precio": 160,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar 'Alpinista', equipada con detalles para amantes del trekking: secador de calzado, mapa topográfico luminiscente y kit de primeros auxilios de montaña. Balcón con medición de altitud en tiempo real.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 53,
+    "fields": {
+      "nombre_hotel": "Teleférico Mountain Suites",
+      "lugar": 11,
+      "num_hab": "TF27",
+      "precio": 200,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Refugio', simulando cabaña de alta montaña con tres camas individuales estilo litera. Sala común con equipo para planificar rutas de senderismo y biblioteca especializada. Incluye guía de trekking para principiantes al Rucu Pichincha.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 54,
+    "fields": {
+      "nombre_hotel": "Teleférico Mountain Suites",
+      "lugar": 11,
+      "num_hab": "TP3",
+      "precio": 230,
+      "capacidad": 4,
+      "descripcion": "Suite 'Cumbre' de dos niveles conectados por escalera de caracol, con dormitorio en nivel superior tipo mirador. Sauna seco con hierbas andinas, jacuzzi exterior climatizado y terraza con telescopio profesional. Incluye picnic de altura para 4 personas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 55,
+    "fields": {
+      "nombre_hotel": "Teleférico Mountain Suites",
+      "lugar": 11,
+      "num_hab": "TI20",
+      "precio": 120,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Meditación', con plataforma de yoga orientada al Cotopaxi, colchón tatami y altar andino. Incluye sesión diaria de respiración altitudinal y té de coca para aclimatación.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 56,
+    "fields": {
+      "nombre_hotel": "La Carolina Urban Oasis",
+      "lugar": 12,
+      "num_hab": "LC22",
+      "precio": 140,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Jardín' con balcón privado que se abre directamente al parque La Carolina, hamaca colgante y ducha exterior con cortina de bambú. Decoración con plantas vivas y sistema de sonido ambiental de bosque urbano.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 57,
+    "fields": {
+      "nombre_hotel": "La Carolina Urban Oasis",
+      "lugar": 12,
+      "num_hab": "LV10",
+      "precio": 120,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar 'Bonsái', con mini-jardín interior cuidado diariamente por el equipo de jardinería del hotel. Cama queen size con cabecera de madera reciclada y baño con ducha de lluvia. Incluye taller básico de cuidado de plantas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 58,
+    "fields": {
+      "nombre_hotel": "La Carolina Urban Oasis",
+      "lugar": 12,
+      "num_hab": "LF31",
+      "precio": 160,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Explorador', con literas estilo árbol y mapa mural interactivo del parque. Incluye mochilas de exploración con binoculares, guía de aves urbanas y credenciales para actividades en el Jardín Botánico adyacente.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 59,
+    "fields": {
+      "nombre_hotel": "La Carolina Urban Oasis",
+      "lugar": 12,
+      "num_hab": "LP8",
+      "precio": 190,
+      "capacidad": 4,
+      "descripcion": "Suite 'Botánico' con invernadero privado, dos dormitorios conectados por puente colgante interior y baño con bañera de hidromasaje con vista al jardín vertical. Incluye desayuno servido entre orquídeas y tour privado por el vivero del hotel.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 60,
+    "fields": {
+      "nombre_hotel": "La Carolina Urban Oasis",
+      "lugar": 12,
+      "num_hab": "LI26",
+      "precio": 100,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Jardinería', con espacio de trabajo para paisajistas y aficionados. Incluye diario de observación botánica, lupa profesional y acceso ilimitado a la biblioteca de horticultura del hotel.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 61,
+    "fields": {
+      "nombre_hotel": "Malecón 2000 Riverside",
+      "lugar": 13,
+      "num_hab": "MR19",
+      "precio": 170,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Náutica' con ventanal curvo que simula el puente de mando de un barco, vista directa al río Guayas. Detalles de navegación auténticos y sistema de sonido ambiental de sonidos portuarios. Incluye tour privado al puerto histórico.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 62,
+    "fields": {
+      "nombre_hotel": "Malecón 2000 Riverside",
+      "lugar": 13,
+      "num_hab": "MV13",
+      "precio": 150,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar 'Comerciante', decorada con elementos de la época cacaotera. Cama con dosel de velas de barco recicladas y baño con azulejos de cerámica guayaquileña. Incluye degustación de chocolates artesanales.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 63,
+    "fields": {
+      "nombre_hotel": "Malecón 2000 Riverside",
+      "lugar": 13,
+      "num_hab": "MF35",
+      "precio": 190,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Astillero', con literas estilo camarote y área de juegos náuticos. Incluye taller familiar de nudos marineros y kit para construir maqueta de velero guayaquileño.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 64,
+    "fields": {
+      "nombre_hotel": "Malecón 2000 Riverside",
+      "lugar": 13,
+      "num_hab": "MP2",
+      "precio": 220,
+      "capacidad": 4,
+      "descripcion": "Suite 'Capitanía' de dos niveles con mirador privado para observar barcos, dormitorio principal con cama suspendida y sala de estar con barra de cócteles tropicales. Incluye paseo en yate al atardecer para toda la familia.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 65,
+    "fields": {
+      "nombre_hotel": "Malecón 2000 Riverside",
+      "lugar": 13,
+      "num_hab": "MI24",
+      "precio": 110,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Grumete', compacta pero funcional con cama tipo litera alta para maximizar espacio. Escritorio plegable con vista al río y estación de carga USB integrada. Ideal para viajeros en tránsito.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 66,
+    "fields": {
+      "nombre_hotel": "Parque Histórico Eco Resort",
+      "lugar": 14,
+      "num_hab": "PH16",
+      "precio": 155,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Hacienda' en cabaña independiente rodeada de jardines, con porche frontal con mecedoras y hamaca. Decoración tradicional costeña con muebles de caña guadúa y techo de paja toquilla. Incluye desayuno con productos de finca orgánica.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 67,
+    "fields": {
+      "nombre_hotel": "Parque Histórico Eco Resort",
+      "lugar": 14,
+      "num_hab": "PV11",
+      "precio": 135,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar 'Montuvio', con paredes de bahareque auténtico y ventilación natural cruzada. Cama matrimonial con mosquitero artesanal y baño con ducha al aire libre privada. Incluye demostración de danza montuvia los viernes.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 68,
+    "fields": {
+      "nombre_hotel": "Parque Histórico Eco Resort",
+      "lugar": 14,
+      "num_hab": "PF28",
+      "precio": 175,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Cacao', en forma de casa de hacienda cacaotera en miniatura. Tres camas individuales con doseles de red, rincón de juegos tradicionales y mini-museo del chocolate. Incluye taller de elaboración de chocolate artesanal.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 69,
+    "fields": {
+      "nombre_hotel": "Parque Histórico Eco Resort",
+      "lugar": 14,
+      "num_hab": "PP5",
+      "precio": 205,
+      "capacidad": 4,
+      "descripcion": "Suite 'Granja' con dos cabañas conectadas por puente: dormitorio principal con baño de lujo y cabaña infantil con literas temáticas de animales de la costa. Huerto privado para cosechar ingredientes para el desayuno y área de fogata controlada.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 70,
+    "fields": {
+      "nombre_hotel": "Parque Histórico Eco Resort",
+      "lugar": 14,
+      "num_hab": "PI32",
+      "precio": 105,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Naturalista', inspirada en los científicos que estudiaron la costa ecuatoriana. Equipada con microscopio básico, guías de campo y diario de observación. Incluye acceso prioritario al aviario del parque histórico.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 71,
+    "fields": {
+      "nombre_hotel": "Cerro Santa Ana Bohemian",
+      "lugar": 15,
+      "num_hab": "CS18",
+      "precio": 145,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Artista' en el corazón de Las Peñas, decorada por pintores locales con mural personalizado. Caballete y materiales básicos para pintura incluidos. Terraza compartida con vista al río y zonas de creación colectiva.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 72,
+    "fields": {
+      "nombre_hotel": "Cerro Santa Ana Bohemian",
+      "lugar": 15,
+      "num_hab": "CV7",
+      "precio": 125,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar 'Musical', equipada con instrumentos típicos para uso de huéspedes (guitarra, maracas). Paredes con grafitis de leyendas musicales guayaquileñas. Incluye invitación a peña folklórica los jueves por la noche.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 73,
+    "fields": {
+      "nombre_hotel": "Cerro Santa Ana Bohemian",
+      "lugar": 15,
+      "num_hab": "CF29",
+      "precio": 165,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Teatro', decorada como escenario vintage con telón de fondo pintado a mano. Tres camas tipo camerino con iluminación teatral. Incluye taller de máscaras tradicionales y función privada de títeres los sábados.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 74,
+    "fields": {
+      "nombre_hotel": "Cerro Santa Ana Bohemian",
+      "lugar": 15,
+      "num_hab": "CP4",
+      "precio": 195,
+      "capacidad": 4,
+      "descripcion": "Suite 'Patrimonio' en antigua casa restaurada, con galería de arte privada, cocina completa estilo retro y terraza mirador con telescopio para vistas nocturnas de Guayaquil. Incluye recorrido histórico personalizado por Las Peñas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 75,
+    "fields": {
+      "nombre_hotel": "Cerro Santa Ana Bohemian",
+      "lugar": 15,
+      "num_hab": "CI21",
+      "precio": 95,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Escritor', con máquina de escribir vintage y librero de obras literarias guayaquileñas. Escritorio frente a ventanal con vista al faro. Incluye membresía temporal al Círculo de Lectura del barrio.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 76,
+    "fields": {
+      "nombre_hotel": "San Francisco Heritage",
+      "lugar": 16,
+      "num_hab": "SF13",
+      "precio": 135,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Claustro' en antiguo convento restaurado, con arcos de piedra originales y vitrales religiosos. Cama king size con dosel de encaje y baño con bañera de patas. Incluye acceso privado a la capilla para meditación.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 77,
+    "fields": {
+      "nombre_hotel": "San Francisco Heritage",
+      "lugar": 16,
+      "num_hab": "SV8",
+      "precio": 115,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar 'Relicario', con nichos que exhiben arte sacro colonial. Cama queen size con cabecera tallada en madera de guayacán. Incluye visita guiada al museo de arte religioso del hotel.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 78,
+    "fields": {
+      "nombre_hotel": "San Francisco Heritage",
+      "lugar": 16,
+      "num_hab": "SF26",
+      "precio": 155,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Coro', con excelente acústica y órgano pequeño funcional. Tres camas individuales estilo seminario y área de lectura con biblioteca de teología. Incluye acceso a ensayos del coro parroquial.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 79,
+    "fields": {
+      "nombre_hotel": "San Francisco Heritage",
+      "lugar": 16,
+      "num_hab": "SP1",
+      "precio": 185,
+      "capacidad": 4,
+      "descripcion": "Suite 'Obispo' con capilla privada, dormitorio principal con cama ceremonial y sala de recepciones. Baño con pila bautismal convertida en jacuzzi. Incluye cena gourmet con recetas históricas de monasterios.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 80,
+    "fields": {
+      "nombre_hotel": "San Francisco Heritage",
+      "lugar": 16,
+      "num_hab": "SI30",
+      "precio": 85,
+      "capacidad": 1,
+      "descripcion": "Celda monacal individual auténtica, minimalista pero con todas las comodidades modernas discretamente integradas. Incluye retiro espiritual guiado y libro de horas personalizado.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 81,
+    "fields": {
+      "nombre_hotel": "Guayaquil Vintage Suites",
+      "lugar": 17,
+      "num_hab": "GV15",
+      "precio": 175,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Años Dorados' inspirada en los 50s, con mobiliario retro original, jukebox funcional y baño con azulejos vintage. Terraza privada con vista al Malecón y muebles de época. Incluye tour por la arquitectura modernista de Guayaquil.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 82,
+    "fields": {
+      "nombre_hotel": "Guayaquil Vintage Suites",
+      "lugar": 17,
+      "num_hab": "GV9",
+      "precio": 155,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar 'Cine', decorada con posters de películas filmadas en Guayaquil y proyector de cine clásico con selección de películas. Cama queen size estilo Hollywood Regency con iluminación teatral.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 83,
+    "fields": {
+      "nombre_hotel": "Guayaquil Vintage Suites",
+      "lugar": 17,
+      "num_hab": "GF34",
+      "precio": 195,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Ferrocarril', diseñada como vagón de tren histórico con literas y área de juegos de mesa antiguos. Incluye maqueta interactiva del ferrocarril Guayaquil-Quito y visita al museo ferroviario.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 84,
+    "fields": {
+      "nombre_hotel": "Guayaquil Vintage Suites",
+      "lugar": 17,
+      "num_hab": "GP6",
+      "precio": 225,
+      "capacidad": 4,
+      "descripcion": "Suite 'Presidencial' años 60, con mobiliario original de la época de la Junta Militar. Dos dormitorios, sala de reuniones con bar estilo tiki y terraza con piscina privada. Incluye tour en auto clásico por la ciudad.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 85,
+    "fields": {
+      "nombre_hotel": "Guayaquil Vintage Suites",
+      "lugar": 17,
+      "num_hab": "GI27",
+      "precio": 115,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Fotógrafo', equipada con cámara oscura básica y exhibición rotativa de fotos históricas de Guayaquil. Incluye taller de revelado análogo y mapa de lugares fotogénicos de la ciudad.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 86,
+    "fields": {
+      "nombre_hotel": "Bahía Luxury Towers",
+      "lugar": 18,
+      "num_hab": "BL20",
+      "precio": 210,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Skyline' en piso alto con vista de 270° a la ciudad y el río. Cama flotante orientada hacia ventanales panorámicos, baño con ducha de lluvia cielito y sistema de aromaterapia automatizado.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 87,
+    "fields": {
+      "nombre_hotel": "Bahía Luxury Towers",
+      "lugar": 18,
+      "num_hab": "BV10",
+      "precio": 190,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar 'Executive' con oficina inteligente integrada, silla ergonómica de diseño y tecnología de videoconferencia. Incluye acceso a lounge ejecutivo con co-working space y barra de snacks gourmet.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 88,
+    "fields": {
+      "nombre_hotel": "Bahía Luxury Towers",
+      "lugar": 18,
+      "num_hab": "BF37",
+      "precio": 230,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Penthouse', con dos ambientes separados por puerta corrediza, cocineta completa y área de juegos con consola next-gen. Incluye servicio de niñera certificada por 4 horas diarias.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 89,
+    "fields": {
+      "nombre_hotel": "Bahía Luxury Towers",
+      "lugar": 18,
+      "num_hab": "BP3",
+      "precio": 260,
+      "capacidad": 4,
+      "descripcion": "Suite 'Signature' con piscina infinita privada en terraza, gimnasio personal y spa completo para dos personas. Dos dormitorios con vestidores walk-in y servicio de mayordomo 24/7. Incluye traslado en helicóptero al aeropuerto.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 90,
+    "fields": {
+      "nombre_hotel": "Bahía Luxury Towers",
+      "lugar": 18,
+      "num_hab": "BI23",
+      "precio": 150,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'SkyPod' con cama suspendida y ventana observatorio en techo. Sistema de realidad virtual para vuelos sobre la ciudad. Ideal para viajeros que buscan experiencias high-tech.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 91,
+    "fields": {
+      "nombre_hotel": "Daule Riverside",
+      "lugar": 19,
+      "num_hab": "DR17",
+      "precio": 125,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Barcaza' flotante sobre el río Daule, con movimiento suave de marea. Decoración náutica moderna y terraza privada con escalera directa al agua. Ideal para pesca recreativa al amanecer.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 92,
+    "fields": {
+      "nombre_hotel": "Daule Riverside",
+      "lugar": 19,
+      "num_hab": "DV12",
+      "precio": 105,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar 'Pescador', con equipo básico de pesca incluido y secador especial para calzado mojado. Ventanal panorámico hacia los manglares y sistema de sonido ambiental de aves acuáticas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 93,
+    "fields": {
+      "nombre_hotel": "Daule Riverside",
+      "lugar": 19,
+      "num_hab": "DF38",
+      "precio": 145,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Ecolodge', construida con materiales reciclados de barcos. Tres camas individuales con redes mosquiteras artesanales y área de hamacas compartida. Incluye tour en canoa por los afluentes del Daule.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 94,
+    "fields": {
+      "nombre_hotel": "Daule Riverside",
+      "lugar": 19,
+      "num_hab": "DP7",
+      "precio": 175,
+      "capacidad": 4,
+      "descripcion": "Suite 'Capitán' en barco restaurado anclado permanentemente, con dos camarotes, cubierta de sol privada y área de barbacoa. Incluye paseo nocturno por el río con cena a bordo para 4 personas.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 95,
+    "fields": {
+      "nombre_hotel": "Daule Riverside",
+      "lugar": 19,
+      "num_hab": "DI25",
+      "precio": 85,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Camarote', compacta pero funcional en el nivel inferior de la barcaza principal. Sonido constante del agua contra el casco para relajación. Ideal para escritores o artistas en retiro creativo.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 96,
+    "fields": {
+      "nombre_hotel": "Urdesa Gourmet Lofts",
+      "lugar": 20,
+      "num_hab": "UG14",
+      "precio": 195,
+      "capacidad": 2,
+      "descripcion": "Habitación 'Chef' con cocina totalmente equipada y isla de preparación. Incluye clase privada de cocina ecuatoriana moderna y degustación de vinos locales. Terraza con huerto de hierbas para uso personal.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 97,
+    "fields": {
+      "nombre_hotel": "Urdesa Gourmet Lofts",
+      "lugar": 20,
+      "num_hab": "UV11",
+      "precio": 175,
+      "capacidad": 2,
+      "descripcion": "Habitación estándar 'Foodie', con minibar de productos gourmet locales y biblioteca de recetas firmadas por chefs famosos de Guayaquil. Incluye tour gastronómico por Urdesa con 5 paradas degustación.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 98,
+    "fields": {
+      "nombre_hotel": "Urdesa Gourmet Lofts",
+      "lugar": 20,
+      "num_hab": "UF39",
+      "precio": 215,
+      "capacidad": 3,
+      "descripcion": "Habitación familiar 'Repostero', con cocina de repostería equipada (horno profesional, batidora). Incluye taller de postres tradicionales para toda la familia y cena de degustación de dulces típicos.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 99,
+    "fields": {
+      "nombre_hotel": "Urdesa Gourmet Lofts",
+      "lugar": 20,
+      "num_hab": "UP9",
+      "precio": 245,
+      "capacidad": 4,
+      "descripcion": "Suite 'Sommelier' con bodega climatizada para 50 botellas, cocina de chef con estación de maridaje. Dos dormitorios con baños de hidroterapia. Incluye cena de 7 pasos con maridajes premium y servicio de sommelier privado.",
+      "reservada": false
+    }
+  },
+  {
+    "model": "reservas.habitacion",
+    "pk": 100,
+    "fields": {
+      "nombre_hotel": "Urdesa Gourmet Lofts",
+      "lugar": 20,
+      "num_hab": "UI28",
+      "precio": 135,
+      "capacidad": 1,
+      "descripcion": "Habitación individual 'Barista', con estación profesional de café y colección de granos ecuatorianos. Incluye taller de métodos de preparación y mapa de las mejores cafeterías artesanales de Guayaquil.",
+      "reservada": false
+    }
+  }
+]

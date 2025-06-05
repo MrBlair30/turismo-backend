@@ -1,0 +1,47 @@
+[
+  {
+    "model": "reservas.ciudad",
+    "pk": 1,
+    "fields": {
+      "nombre": "Galápagos",
+      "descripcion": "Archipiélago famoso por su biodiversidad única.",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Galapagos_Islands_map.png"
+    }
+  },
+  {
+    "model": "reservas.ciudad",
+    "pk": 2,
+    "fields": {
+      "nombre": "Portoviejo",
+      "descripcion": "Ciudad costera y capital de Manabí.",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Portoviejo_panorama.jpg"
+    }
+  },
+  {
+    "model": "reservas.ciudad",
+    "pk": 3,
+    "fields": {
+      "nombre": "Cuenca",
+      "descripcion": "Ciudad andina declarada Patrimonio de la Humanidad.",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Cuenca_Ecuador_Panorama.jpg"
+    }
+  },
+  {
+    "model": "reservas.ciudad",
+    "pk": 4,
+    "fields": {
+      "nombre": "Quito",
+      "descripcion": "Capital de Ecuador, famosa por su centro histórico.",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Quito_City_Skyline.jpg"
+    }
+  },
+  {
+    "model": "reservas.ciudad",
+    "pk": 5,
+    "fields": {
+      "nombre": "Guayaquil",
+      "descripcion": "Principal puerto y ciudad más grande de Ecuador.",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Guayaquil_Skyline.jpg"
+    }
+  }
+]
